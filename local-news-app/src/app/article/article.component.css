@@ -1,0 +1,10 @@
+.article-container {
+  text-align: left;
+  padding: 5px 10px;
+  margin: 0px 4px;
+  border: 1px solid black;
+  box-shadow: 3px 3px gray;
+  border-radius: 4px;
+  background-color: white;
+  margin-bottom: 2rem;
+}

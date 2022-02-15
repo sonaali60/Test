@@ -1,0 +1,11 @@
+<div *ngIf="!showUi" class="spinner">
+    <p>Loading weather</p>
+    <div class="bounce1"></div>
+    <div class="bounce2"></div>
+    <div class="bounce3"></div>
+</div>
+<div *ngIf="showUi">
+    <img [src]="weather_icon" class="img-height"/>
+    <p>{{today|date:'EEEE, MMMM d'}}</p>
+    <p>{{weather_state}}</p>
+</div>
